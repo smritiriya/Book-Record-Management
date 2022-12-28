@@ -4,8 +4,8 @@
   "description": "book record management application ",
   "main": "index.js",
   "scripts": {
-   "start":"node index.js",
-   "dev": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/smritiriya/book-record-manangement#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moongose": "^1.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
